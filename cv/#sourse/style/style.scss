@@ -396,6 +396,7 @@ body {
         &__languages {
             flex: 0 0 50%;
             display: flex;
+            margin-top: 50px;
 
             @media (max-width: 768px) {
                 flex-direction: column;
