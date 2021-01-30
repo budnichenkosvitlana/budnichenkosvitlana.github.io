@@ -1,0 +1,532 @@
+body {
+    text-align: center;
+}
+
+#girl {
+    animation-name: girl;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+}
+
+@keyframes girl {
+    from {
+        transform: rotateZ(-3deg);
+    }
+
+    to {
+        transform: rotateZ(5deg);
+    }
+}
+
+#key {
+    animation-name: key;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes key {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+
+
+    }
+}
+
+#Vector_5 {
+    animation-name: vector5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes vector5 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(.5);
+        fill: rgb(63, 51, 86);
+    }
+}
+
+#Vector_3 {
+    animation-name: vector3;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes vector3 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.4);
+        fill: rgb(63, 51, 86);
+    }
+}
+
+#Vector_4 {
+    animation-name: vector4;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes vector4 {
+    from {
+        transform: scale(.7);
+    }
+
+    to {
+        transform: scale(1);
+        fill: rgb(63, 51, 86);
+    }
+}
+
+#leaf,
+#leaf_2,
+#girl_leaf {
+    animation-name: leaf;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes leaf {
+    from {
+        transform: scale(1);
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: scale(1.1);
+        transform: rotateX(50deg);
+    }
+}
+
+
+#grand_flower {
+    animation-name: grand_flower;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+
+}
+
+@keyframes grand_flower {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+
+    }
+}
+
+#grand_flower_2 {
+    animation-name: grand_flower2;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: right;
+    transform-box: fill-box;
+
+}
+
+@keyframes grand_flower2 {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+}
+
+#grand_flower_3 {
+    animation-name: grand_flower3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+
+}
+
+@keyframes grand_flower3 {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+}
+
+#Vector_39 {
+    animation-name: vector39;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes vector39 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+#Vector_40 {
+    animation-name: vector40;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes vector40 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.8);
+    }
+}
+
+#Vector_41 {
+    animation-name: vector41;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes vector41 {
+    from {
+        transform: scale(.8);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+#Vector_42 {
+    animation-name: vector42;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+
+}
+
+@keyframes vector42 {
+    from {
+        transform: scale(.8) translateY(-50px);
+    }
+
+    to {
+        transform: scale(1) translateY(30px);
+    }
+}
+
+#Vector_10 {
+    animation-name: vector10;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+}
+
+@keyframes vector10 {
+    0% {
+        transform: scale(1) translateY(-20px);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1) translateY(50px);
+    }
+}
+
+#Vector_11 {
+    animation-name: vector11;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+
+}
+
+@keyframes vector11 {
+    0% {
+        transform: scale(1) translateY(-10px);
+    }
+    50%{
+        transform: scale(2);
+    }
+
+    100% {
+        transform: scale(1) translateY(30px);
+
+    }
+}
+
+#girl_body {
+    animation-name: girl_body;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+}
+
+@keyframes girl_body {
+    from {
+        transform: rotateZ(0deg) translateX(-5px) translateY(-5);
+    }
+
+    to {
+        transform: rotateZ(-6deg) translateX(0px) translateY(0px);
+    }
+}
+
+#arm {
+    animation-name: arm;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: top;
+
+}
+
+@keyframes arm {
+    from {
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        transform: rotateZ(-5deg);
+    }
+}
+
+#shoe1 {
+    animation-name: shoe1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+}
+
+@keyframes shoe1 {
+    from {
+        transform: rotateZ(8deg);
+    }
+
+    to {
+        transform: rotateZ(-10deg);
+    }
+}
+
+#shoe2 {
+    animation-name: shoe2;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: left;
+
+}
+
+@keyframes shoe2 {
+    from {
+        transform: rotateZ(8deg);
+    }
+
+    to {
+        transform: rotateZ(-10deg);
+    }
+}
+
+#girl_flower {
+    animation-name: girl_flower;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: center;
+
+}
+
+@keyframes girl_flower {
+    from {
+        transform: scale(.8);
+        fill: rgb(63, 61, 86);
+        
+    }
+
+    to {
+        transform: scale(2);
+        fill: rgb(108, 99, 255)
+    }
+}
+
+
+#Vector_38,
+#girl_leaf {
+    fill: rgb(63, 61, 86);
+}
+
+#head {
+    animation-name: head;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-box: fill-box;
+    transform-origin: bottom;
+
+}
+
+@keyframes head {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-10deg);
+    }
+}
+
+#Vector_6,
+#Vector,
+#Vector_8 {
+    animation-name: vector;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+
+}
+
+@keyframes vector {
+    from {
+        fill: rgb(63, 61, 86);
+        
+    }
+
+    to {
+        fill: rgb(108, 99, 255);
+    }
+}
+
+#girlflower{
+    animation-name: girlflower;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes girlflower {
+    from {
+        transform: rotateZ(-5deg) translateY(2px);
+        
+    }
+
+    to {
+        transform: rotateZ(-9deg) translateY(-2px);
+    }
+}
+
+
+#girl_pants{
+    animation-name: girl_pants;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes girl_pants {
+    from {
+        transform: rotateZ(-5deg) translateY(5px);
+        
+    }
+
+    to {
+        transform: rotateZ(0deg) translateY(-3px);
+    }
+}
