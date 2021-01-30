@@ -535,6 +535,9 @@ body {
 .portfolio__links a:hover img {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
+.portfolio__links a:hover h2 {
+  color: #A0A0A0;
+}
 .portfolio__git {
   font-size: 20px;
   text-align: center;
@@ -545,9 +548,9 @@ body {
   font-size: 18px;
   margin: 0 auto;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   margin-top: 20px;
-  color: #000;
+  color: #010101;
 }
 @media (max-width: 950px) {
   .portfolio__repository {
@@ -555,5 +558,5 @@ body {
   }
 }
 .portfolio__repository:hover {
-  text-decoration: underline;
+  color: #A0A0A0;
 }

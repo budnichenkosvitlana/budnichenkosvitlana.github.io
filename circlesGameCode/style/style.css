@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("./images/markus-spiske-iar-afB0QQw-unsplash.jpg");
+    background-image: url('../images/markus-spiske-iar-afB0QQw-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }

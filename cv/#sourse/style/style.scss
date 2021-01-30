@@ -514,6 +514,9 @@ body {
             img {
                 box-shadow: 0 0 5px rgba(0, 0, 0, .6);
             }
+            h2{
+                color: #A0A0A0;
+            }
         }
     }
     &__git{
@@ -526,14 +529,14 @@ body {
         font-size: 18px;
         margin: 0 auto;
         text-align: center;
-        text-decoration: none;
+        text-decoration: underline;
         margin-top: 20px;
-        color: #000;
+        color: #010101;
          @media (max-width: 950px) {
             width: 50%;
         }
     }
     &__repository:hover{
-            text-decoration: underline;
+            color: #A0A0A0;
     }
 }
