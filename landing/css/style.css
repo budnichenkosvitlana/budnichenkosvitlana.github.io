@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  min-height: 100%;
+  -webkit-min-height: 100%;
   align-content: center;
   top: 0;
 }
@@ -98,7 +98,7 @@ body {
   z-index: 50;
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  height: 70px;
+  -webkit-height: 70px;
 }
 .header .header:before {
   content: "";
@@ -216,7 +216,7 @@ body {
     transition: 0.2s ease;
   }
   .header .header__menu.active {
-    padding-bottom: 300%;
+    -webkit-padding-bottom: 300%;
   }
   .header__list {
     padding: 70px 10px 0px 10px;
@@ -367,12 +367,11 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: #A4A4A4;
-  margin-top: 4.0899795501%;
   vertical-align: middle;
   margin-top: 160px;
 }
 .learn__body {
-  display: flex;
+  -webkit-display: flex;
   margin-top: 8.1799591002%;
   align-items: center;
 }
@@ -380,11 +379,11 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin-left: 0px;
+  margin-left: 5%;
+  padding-top: 5%;
 }
 .learn__text {
-  width: 46.328125%;
-  height: 13.1901840491%;
+  width: 46.875%;
   font-size: 34px;
   line-height: 142.19%;
   letter-spacing: 0.03em;
@@ -436,7 +435,7 @@ body {
   }
   .learn .learn__info {
     margin-left: 0;
-    margin-top: 65%;
+    margin-top: 40%;
   }
   .learn .learn__text {
     width: 415px;
@@ -454,13 +453,13 @@ body {
   .learn .learn__text {
     max-width: 600px;
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 0px;
   }
 }
 @media (max-width: 465px) {
   .learn .learn__text {
-    width: 300px;
-    margin-top: 120px;
+    width: 320px;
+    margin-top: 0px;
   }
   .learn .learn__info {
     width: 90%;
@@ -469,7 +468,8 @@ body {
 @media (max-width: 375px) {
   .learn .learn__text {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 20px;
+    text-align: center;
   }
   .learn .learn__info {
     align-items: center;
@@ -570,7 +570,7 @@ body {
 }
 @media (max-width: 767px) {
   .numbers {
-    margin-top: 240px;
+    margin-top: 260px;
   }
   .numbers .numbers__body {
     margin-top: 60px;
@@ -594,7 +594,7 @@ body {
 }
 @media (max-width: 567px) {
   .numbers {
-    margin-top: 240px;
+    margin-top: 260px;
   }
   .numbers .numbers__body {
     flex-direction: column;
