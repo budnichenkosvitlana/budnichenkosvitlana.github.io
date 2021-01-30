@@ -216,7 +216,7 @@ body {
     transition: 0.2s ease;
   }
   .header .header__menu.active {
-    -webkit-padding-bottom: 300%;
+    padding-bottom: 300%;
   }
   .header__list {
     padding: 70px 10px 0px 10px;
