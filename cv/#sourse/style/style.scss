@@ -334,7 +334,7 @@ body {
 
     &__other {
         flex: 0 0 100%;
-        display: flex;
+        -webkit-display: flex;
         flex-direction: column;
 
         @media (max-width: 1330px) {
@@ -377,8 +377,6 @@ body {
                 transform: none;
                 margin-bottom: 20px;
             }
-
-
 
             p {
                 position: absolute;

@@ -368,7 +368,7 @@ body {
 }
 .about__other {
   flex: 0 0 100%;
-  display: flex;
+  -webkit-display: flex;
   flex-direction: column;
 }
 @media (max-width: 1330px) {
