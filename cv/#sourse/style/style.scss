@@ -290,7 +290,7 @@ body {
         display: flex;
         flex: 0 0 50%;
         justify-content: flex-end;
-       // padding-right: 40px;
+        // padding-right: 40px;
 
         @media (max-width: 1180px) {
             margin-right: 50px;
@@ -403,7 +403,7 @@ body {
             font-size: 30px;
         }
 
-        p:after{
+        p:after {
             content: "";
             display: inline-block;
             vertical-align: middle;
