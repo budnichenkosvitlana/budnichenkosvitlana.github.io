@@ -428,6 +428,14 @@ body {
         flex-wrap: wrap;
         margin-top: 50px;
 
+        hr{
+            display: none;
+             @media (max-width: 937px) {
+            display: inline-block;
+            margin-bottom: 50px;
+        }
+        }
+
         @media (max-width: 1330px) {
             flex-flow: wrap;
             flex: 0 0 50%;
@@ -435,7 +443,6 @@ body {
 
         @media (max-width: 937px) {
             flex-flow: wrap;
-            flex: 0 0 100%;
         }
 
         img {

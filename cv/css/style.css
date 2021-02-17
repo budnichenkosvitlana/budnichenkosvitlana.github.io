@@ -467,6 +467,15 @@ body {
   flex-wrap: wrap;
   margin-top: 50px;
 }
+.portfolio__links hr {
+  display: none;
+}
+@media (max-width: 937px) {
+  .portfolio__links hr {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+}
 @media (max-width: 1330px) {
   .portfolio__links {
     flex-flow: wrap;
@@ -476,7 +485,6 @@ body {
 @media (max-width: 937px) {
   .portfolio__links {
     flex-flow: wrap;
-    flex: 0 0 100%;
   }
 }
 .portfolio__links img {
