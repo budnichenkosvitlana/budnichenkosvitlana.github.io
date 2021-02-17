@@ -455,7 +455,7 @@ body {
 .portfolio {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .portfolio__title {
   font-size: 50px;
@@ -510,10 +510,16 @@ body {
   }
 }
 .portfolio__links__container p {
+  font-weight: 300;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 140%;
   color: #010101;
   text-align: justify;
+}
+@media (max-width: 937px) {
+  .portfolio__links__container p {
+    font-size: 14px;
+  }
 }
 .portfolio__links__container a {
   color: #010101;
@@ -536,11 +542,10 @@ body {
 .portfolio__links__container h3 a:hover {
   color: #A0A0A0;
 }
-
-a:hover img {
+.portfolio__links__container a:hover img {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-a:hover h2 {
+.portfolio__links__container a:hover h2 {
   color: #A0A0A0;
 }
 
@@ -572,7 +577,6 @@ a:hover h2 {
 .contacts a img {
   margin-right: 5px;
 }
-.contacts p {
-  margin-bottom: 10px;
-  margin-top: 10px;
+.contacts a:hover {
+  color: #A0A0A0;
 }
