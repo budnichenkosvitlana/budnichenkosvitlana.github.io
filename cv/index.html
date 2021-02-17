@@ -21,18 +21,9 @@
                         <p>HTML/CSS-coder</p>
                     </div>
                 </div>
-                <div class="header__info__about">
-                    <p>Привіт! Мене звати Світлана, мені 24 роки, живу в Києві. Уже 4 місяці вивчаю і практикую кодування. Раніше не мала досвіду роботи в даному напрямку. Кардинально змінити сферу діяльності, і зайнятися програмуванням я вирішила, бо знаходжу цю справу дуже структурованою і логічною, а це саме те, чого мені не вистачало в попередньому трудовому досвіді. Легко сприймаю нову інформацію, вмію слухати і завжди відповідально підходжу до своїх завдань.</p>
-                </div>
             </div>
-            <div class="header__contact">
-                <div class="header__contact__img"> <img src="./img/portrait.png"></div>
-                <div class="header__contact__contacts">
-                    <a href="https://www.facebook.com/s.budnichenko" target="_blank"> <img src="./img/Icons/Facebook.svg">facebook</a>
-                    <a href="https://www.instagram.com/svetaneprosnulas/" target="_blank"> <img src="./img/Icons/Instagram.svg">instagram</a>
-                    <p><a href="mailto:budnichenkosvetka@gmail.com"> <img src="./img/Icons/Mail.svg">budnichenkosvetka@gmail.com</a></p>
-                    <p><a href="tel:+38 (099) 420 37 80"><img src="./img/Icons/phone.svg">+38 (099) 420 37 80</a></p>
-                </div>
+            <div class="header__img">
+                <div class="header__contact__img"> <img src="./img/portrait 17.26.05.png"></div>
             </div>
         </header>
         <div class="about">
@@ -91,6 +82,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="about__softskills">
                 <div class="about__softskills__title">
                     <p>SOFT SKILLS</p>
@@ -138,59 +130,50 @@
                     </li>
                 </ul>
             </div>
-            <div class="about__other">
-                <div class="about__other__interests">
-                    <div class="about__other__interests__title">
-                        <p>INTERESTS</p>
-                    </div>
-                    <div class="about__other__interests__info">
-                        <p>Моє хоббі - флористика і рослини в цілому. У дизайні та стилі надаю перевагу мінімалізму. У вільний час полюбляю займатись ручною працею: ліпити, будувати, конструювати, маю до цього здібності. Люблю креатив, порядок та песиків.
-                        </p>
-                    </div>
-                </div>
-                <div class="about__other__languages">
-                    <div class="about__other__languages__title">
-                        <p>LANGUAGES</p>
-                    </div>
-                    <ul class="about__other__languages__list">
-                        <li>
-                            <p>English</p>
-                            <img src="./img/Icons/skills/eng.svg">
-                        </li>
-                        <li>
-                            <p>Українська</p>
-                            <img src="./img/Icons/skills/ukr.svg">
-                        </li>
-                        <li>
-                            <p>Русский</p>
-                            <img src="./img/Icons/skills/rus.svg">
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        
         </div>
         <div class="portfolio">
             <p class="portfolio__title">
                 ПОРТФОЛІО
             </p>
             <div class="portfolio__links">
-                <a href="https://budnichenkosvitlana.github.io/landing/" class="portfolio__links__landing" target="_blank">
-                    <img src="./img/landing.png">
-                    <h2>Landing page</h2>
-                </a>
-                <a href="https://budnichenkosvitlana.github.io/natureAnimation/" class="portfolio__links__animation" target="_blank">
+                <div class="portfolio__links__container">
+                <a href="https://budnichenkosvitlana.github.io/natureAnimation/" target="_blank">
                     <img src="./img/animation.png">
                     <h2>SVG animation</h2>
                 </a>
-                <a href="https://budnichenkosvitlana.github.io/circlesGameCode/" class="portfolio__links__jsgame" target="_blank">
+                <p>Зображення відредаговане в figma, з присвоєнням імен класів для елементів анімації, та вивантажене у вигляді коду. Анімація виконана за допомогою keyframes. Анімоване зображення адаптивне.</p>
+                <h3><a href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/natureAnimation" target="_blank">Svg Animation on Git Hub</a></h3>
+                 
+                </div>
+
+                <div class="portfolio__links__container">
+                <a href="https://budnichenkosvitlana.github.io/landing/" target="_blank">
+                    <img src="./img/landing.png">
+                    <h2>Landing page</h2>
+                </a>
+                 <p>Проект створений в figma. Використаний HTML5 та СSS3, лендінг адаптивний та перевірений на кроссбраузеність. При написанні коду використана методологія BEM та препроцесcор Sass. Підключений зовнішній шрифт. Для написання слайдеру викристовується Jquery. Форма валідується.</p>
+                 <h3><a href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/landing"  target="_blank">Landing Page on Git Hub</a></h3>
+                 
+                </div>
+        
+                <div class="portfolio__links__container">
+                <a href="https://budnichenkosvitlana.github.io/circlesGameCode/" target="_blank">
                     <img src="./img/js game.png">
                     <h2>JS game</h2>
                 </a>
+                <p>В проекті використовується HTML5. Функціонал створений за допомогою JavaScript тa CSS. Проект адаптивний та кросбраузерний</p>
+                <h3><a href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/circlesGameCode" target="_blank">JS game on Git Hub</a></h3>
+                 
+
+                </div>
             </div>
-            <p class="portfolio__git">Посилання на репозиторії GitHub</p>
-            <a class="portfolio__repository" href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/landing" target="_blank">Landing Page</a>
-            <a class="portfolio__repository" href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/natureAnimation" target="_blank">SVG animation</a>
-            <a class="portfolio__repository" href="https://github.com/budnichenkosvitlana/budnichenkosvitlana.github.io/tree/main/circlesGameCode" target="_blank">JS game</a>
+        </div>
+        <div class="contacts">
+            <a href="https://www.facebook.com/s.budnichenko" target="_blank"> <img src="./img/Icons/Facebook.svg">facebook</a>
+            <a href="https://www.instagram.com/svetaneprosnulas/" target="_blank"> <img src="./img/Icons/Instagram.svg">instagram</a>
+            <p><a href="mailto:budnichenkosvetka@gmail.com"> <img src="./img/Icons/Mail.svg">budnichenkosvetka@gmail.com</a></p>
+            <p><a href="tel:+38 (099) 420 37 80"><img src="./img/Icons/phone.svg">+38 (099) 420 37 80</a></p>
         </div>
     </div>
 </body>
